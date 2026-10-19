@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Levain Bakery Signature Color Palette */
+    --levain-blue: #0047FF;
+    --levain-navy: #0B1B36;
+    --levain-navy-dark: #071326;
+    --levain-cornflower: #4E8CF6;
+    --levain-cream: #FAF6EE;
+    --levain-cream-soft: #FBF8F2;
+    --levain-parchment: #F2ECE0;
+    --levain-border: #E8DFC8;
+    --levain-gold: #DF9A3E;
+    --levain-chocolate: #2C140A;
+    --levain-coral: #E64A38;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF6EE;
+    color: #0B1B36;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom smooth scrollbar in Levain Bakery style */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5CBBA;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0047FF;
+}
+
+/* Levain signature ribbon banner stripe */
+.levain-ribbon-pattern {
+  background: repeating-linear-gradient(
+    45deg,
+    #0B1B36,
+    #0B1B36 10px,
+    #0E2345 10px,
+    #0E2345 20px
+  );
+}

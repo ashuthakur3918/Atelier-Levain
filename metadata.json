@@ -1,0 +1,8 @@
+{
+  "name": "Atelier Levain — Artisan Bakery & Pâtisserie",
+  "description": "Handcrafted slow-fermented sourdough hearth loaves, laminated French viennoiserie, seasonal pastries, daily oven schedules, and pre-orders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
